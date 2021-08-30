@@ -11,5 +11,6 @@ public class AlltheStoryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_allthe_story);
         Toast.makeText(this,"your going to read about the story of one african girl.",Toast.LENGTH_LONG).show();
+        //hello world
     }
 }
