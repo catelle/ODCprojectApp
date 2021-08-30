@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sup.pc.mboutechapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/crazytlog"
+        android:label="CrazyTalks"
+        android:roundIcon="@drawable/crazytlog"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".HomeActivityrealActivity2"
+            android:label="@string/title_activity_home_activityreal2"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".home2Activity"
+            android:label="@string/title_activity_home2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VerifyEmailActivity"
+            android:parentActivityName=".SignupActivity" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:parentActivityName=".ServiceActivity" />
+        <activity
+            android:name=".AlltheStoryActivity"
+            android:parentActivityName=".WelcomeActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity
+            android:name=".ServiceActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".SplashScreenActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
