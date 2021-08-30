@@ -2,5 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$USER_HOME$/Desktop/app/examples-master/templates" vcs="Git" />
   </component>
 </project>
